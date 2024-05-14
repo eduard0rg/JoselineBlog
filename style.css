@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #c19fd6; /* Color vibrante para el encabezado */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.blog-entries {
+    width: 80%;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+article {
+    display: flex;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    align-items: center;
+}
+
+.article-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.article-image img:hover {
+    transform: scale(1.05);
+}
+
+.article-content {
+    flex: 3;
+    padding: 10px;
+}
+
+.article-content h2:hover {
+    color: #6a1b9a;
+    cursor: pointer;
+}
+
+.social-buttons a {
+    padding: 8px;
+    margin: 5px;
+    background: #6a1b9a;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.social-buttons a:hover {
+    background: #9c27b0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
